@@ -41,6 +41,8 @@ const CONFIG_SCHEMA: SchemaEntity = {
   additionalProperties: false,
 };
 
+import esCommonjsPlugin from '@babel/plugin-transform-modules-commonjs';
+
 const IMPORT_RE = /\b(?:import\b|export\b|require\s*\()/;
 const ENV_RE = /\b(?:process\.env)\b/;
 const BROWSER_RE = /\b(?:process\.browser)\b/;
@@ -210,7 +212,7 @@ export default (new Transformer({
           filename: asset.filePath,
           babelrc: false,
           configFile: false,
-          plugins: [require('@babel/plugin-transform-modules-commonjs')],
+          plugins: [esCommonjsPlugin],
         },
       );
 
