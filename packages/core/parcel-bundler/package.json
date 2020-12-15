@@ -1,5 +1,5 @@
 {
-  "name": "parcel-bundler",
+  "name": "@glas/parcel-bundler",
   "version": "1.12.4",
   "description": "Blazing fast, zero configuration web application bundler",
   "main": "index.js",
