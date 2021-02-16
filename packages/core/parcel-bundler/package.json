@@ -1,12 +1,12 @@
 {
   "name": "@glas/parcel-bundler",
-  "version": "1.12.4",
+  "version": "1.12.5",
   "description": "Blazing fast, zero configuration web application bundler",
   "main": "index.js",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/parcel-bundler/parcel.git"
+    "url": "https://github.com/@glas/parcel-bundler/parcel.git"
   },
   "files": [
     "bin/",
@@ -53,6 +53,7 @@
     "filesize": "^3.6.0",
     "get-port": "^3.2.0",
     "htmlnano": "^0.2.2",
+    "image-js": "^0.31.4",
     "is-glob": "^4.0.0",
     "is-url": "^1.2.2",
     "js-yaml": "^3.10.0",
