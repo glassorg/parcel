@@ -19,7 +19,7 @@ class IonScriptAsset extends Asset {
       this.name
     );
     let debug = this.options.production === false;
-    let result = compileSingle(this.contents, this.name, debug, '.mjs');
+    let result = compileSingle(this.contents, this.name, debug, '.js');
     if (result.error) {
       throw result.error;
     }
